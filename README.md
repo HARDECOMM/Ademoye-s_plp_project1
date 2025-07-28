@@ -39,7 +39,7 @@ Hello, I’m Haruna Ademoye, a Software Engineer specializing in Machine Learnin
  - Tax Filing via TaxPro Max with 95% accuracy and high attention to details 🌟
  - Managed local storage data with 99% integrity 🌟  
 
- **Data Analytics at Clinical Pharmacy Delta State Ministry of Health(NYSC), Aasaba (April 2022 - April 2023)**🤐🙄🚈🚄
+ **Data Analytics at Clinical Pharmacy Delta State Ministry of Health(NYSC), Asaba (April 2022 - April 2023**)🤐🙄🚈🚄
  - Malaria Data Entry with 70% accuracy 🌟
  - Stock Keeping and Analysis for Stakeholders with 95% Quantification Accuracy 🌟 
  - Medication Dispensing with 98% Quantification Accuracy 🌟
