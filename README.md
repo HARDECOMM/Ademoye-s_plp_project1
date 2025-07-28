@@ -93,7 +93,7 @@ EbolaVirusBot: A project focused on developing a bot to provide real-time update
       </td></tr>
       
  <tr><td>
-   <img src="medium.png" width="20" height="16"> </td><td> <a href="https://medium.com/@ademoyeharuna"> 🎛Medium</a>
+   <img src="medium.png" width="20" height="16"> </td><td> <a href="https://medium.com/@ademoyeharuna">Medium</a>
       </td></tr>
       
 <tr> <td>
