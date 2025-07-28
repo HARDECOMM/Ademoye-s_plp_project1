@@ -99,7 +99,7 @@ EbolaVirusBot: A project focused on developing a bot to provide real-time update
 <tr> <td>
  <img src="placeholder.png" width="20" height="16"></td>
       <td>
-<a href="https://maps.app.goo.gl/FwoJcSH7JaN1LW4Q8"> 👩🏼‍🤝‍🧑🏻Lagos, Nigeria</a>
+<a href="https://maps.app.goo.gl/FwoJcSH7JaN1LW4Q8"> Lagos, Nigeria</a>
       </td> </tr> 
 
 <tr> <td>
@@ -110,7 +110,7 @@ EbolaVirusBot: A project focused on developing a bot to provide real-time update
   
   <tr> <td>
  <img src="linkedin.png" width="20" height="16"></td>
-      <td><a href="https://www.linkedin.com/in/haruna-ademoye-859486110">🥽LinkedIn</a>
+      <td><a href="https://www.linkedin.com/in/haruna-ademoye-859486110">LinkedIn</a>
       </td> </tr> 
   
   </tbody>
