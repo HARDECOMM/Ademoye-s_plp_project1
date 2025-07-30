@@ -12,7 +12,7 @@
 
 - Other Technologies: Basic HTML/CSS (Basics)
 
-## ABOUT ME 💫💢💤
+## Abount Me 💫💢💤
 Hello, I’m Haruna Ademoye 😊, a Software Engineer specializing in Machine Learning and Artificial Intelligence for predictive modeling and model development. As a newly onboarded software engineer with PLP, I am eager to apply my knowledge to real-world project development. I have a strong passion for learning and transforming data into actionable insights. With experience across healthcare, finance, sales, operations, and customer service, I am dedicated to supporting businesses in overcoming challenges and driving growth.
 
 
@@ -39,7 +39,7 @@ Hello, I’m Haruna Ademoye, a Software Engineer specializing in Machine Learnin
  - Tax Filing via TaxPro Max with 95% accuracy and high attention to details 🌟
  - Managed local storage data with 99% integrity 🌟  
 
- **Data Analytics at Clinical Pharmacy Delta State Ministry of Health(NYSC), Asaba (April 2022 - April 2023**)🤐🙄🚈🚄
+ **Data Analytics at Clinical Pharmacy Delta State Ministry of Health(NYSC), Asaba (March 2022 - April 2023**)🤐🙄🚈🚄
  - Malaria Data Entry with 70% accuracy 🌟
  - Stock Keeping and Analysis for Stakeholders with 95% Quantification Accuracy 🌟 
  - Medication Dispensing with 98% Quantification Accuracy 🌟
