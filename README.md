@@ -46,30 +46,22 @@ Hello, I’m Haruna Ademoye, a Software Engineer specializing in Machine Learnin
  - Pharmacy Management with 90% Quantification Accuracy  🌟 
 
 ## Projects
-### Data-Analysis Projects
-[Publication](https://github.com/HARDECOMM/Ademoye-s_Portfolio.git)
-
-This portfolio features a data-driven strategy using Python for analyzing various datasets, alongside projects including a Power BI dashboard for visualization, Machine Learning implementations in Jupyter Notebook, and a Tableau project for presenting insights.
-
-
-### Malaria Prediction App
-[Publication](https://github.com/HARDECOMM/Ademoye-s_Portfolio.git)
-
-Malaria Prediction Project: This project aims to predict malaria cases based on symptoms and risk factors using machine learning techniques. It analyzes patient data, including symptoms like fever and chills, along with demographic and environmental factors, to improve early diagnosis and treatment.
-
-GitHub Link: GitHub Repository (replace with your actual link).
-
-
-### EbolaVirusBot App
-[Publication](https://github.com/HARDECOMM/Ademoye-s_Portfolio.git)
-
-EbolaVirusBot: A project focused on developing a bot to provide real-time updates and information related to the Ebola virus. This includes data on outbreaks, symptoms, prevention measures, and treatment options. The bot aims to disseminate accurate and timely information to help raise awareness and support public health efforts. Link to GitHub Repository
-
 
 ### Vehicle Traffic Analysis Dashboard App
-[Publication](https://github.com/HARDECOMM/Ademoye-s_Portfolio.git)
+[Publication]([https://github.com/HARDECOMM/vehicle_traffic_analysis.git](https://lnkd.in/dZuEQtkF))
+This project involves the development of a dashboard that analyzes video footage to provide insights into vehicle traffic patterns. The application utilizes computer vision techniques to detect and track vehicles, offering real-time analytics on traffic flow, congestion, and other key metrics. This dashboard aims to enhance traffic management and inform urban planning decisions.
 
- This project involves the development of a dashboard that analyzes video footage to provide insights into vehicle traffic patterns. The application utilizes computer vision techniques to detect and track vehicles, offering real-time analytics on traffic flow, congestion, and other key metrics. This dashboard aims to enhance traffic management and inform urban planning decisions. Link to GitHub Repository
+### EbolaVirusBot App
+[Publication]([https://github.com/HARDECOMM/EbolaVirusBot.git](https://lnkd.in/gkchy3Br))
+EbolaVirusBot: A project focused on developing a bot to provide real-time updates and information related to the Ebola virus. This includes data on outbreaks, symptoms, prevention measures, and treatment options. The bot aims to disseminate accurate and timely information to help raise awareness and support public health efforts.
+
+### Malaria Prediction App
+[Publication]([https://github.com/HARDECOMM/Malaria-Prediction.git](https://lnkd.in/dwSvAUBQ))
+Malaria Prediction Project: This project aims to predict malaria cases based on symptoms and risk factors using machine learning techniques. It analyzes patient data, including symptoms like fever and chills, along with demographic and environmental factors, to improve early diagnosis and treatment.
+
+### Data-Analysis Projects
+[Publication](https://hardecomm.github.io/Ademoye-s_Portfolio/)
+This portfolio features a data-driven strategy using Python for analyzing various datasets, alongside projects including a Power BI dashboard for visualization, Machine Learning implementations in Jupyter Notebook, and a Tableau project for presenting insights.
 
 # REACH OUT TO ME
  
