@@ -8,8 +8,8 @@
 /* Body and font */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
-  color: #222;
+  background-color: #f8faf9;
+  color: #222222;
   line-height: 1.6;
   padding: 20px;
   min-height: 100vh;
@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(90deg, #2c3e50, #4ca1af);
+  background: linear-gradient(90deg, #2c3f50, #b46dc2);
   color: white;
   padding: 20px 15px;
   border-radius: 10px;
