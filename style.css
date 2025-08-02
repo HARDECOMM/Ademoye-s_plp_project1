@@ -87,7 +87,7 @@ section {
   margin-bottom: 28px;
   border-radius: 10px;
   box-shadow: 0 2px 22px rgba(32, 227, 178, 0.07), 0 0.5px 0.5px rgba(0, 0, 0, 0.04);
-  color: #222222; /* dark text */
+  color: #4CAF50; /* green */
 }
 
 /* Special background for Programming Languages (darker ash) */
@@ -106,7 +106,7 @@ section {
 
 /* Section headings */
 section h2 {
-  color: #3A1C71; /* Deep Indigo */
+  color: #1c5671; /* Deep Indigo */
   border-bottom: 3px solid #FFD700; /* Gold underline */
   padding-bottom: 7px;
   margin-bottom: 18px;
@@ -117,11 +117,11 @@ section h2 {
 /* Lists */
 ul {
   margin-left: 28px;
-  color: #1a1a26;
+  color: #261a25;
 }
 
 section#projects p {
-  color: #232741;
+  color: #413c23;
   margin-top: 8px;
 }
 
@@ -153,7 +153,7 @@ a:hover,
 }
 .cv-link:hover {
   background: #FFD700;
-  color: #3A1C71;
+  color: #70711c;
 }
 
 /* Contact table */
