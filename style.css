@@ -72,7 +72,7 @@ main {
 /* Section styles */
 section {
   background: rgba(76, 161, 175, 0.1); /* light turquoise tint */
-  border-left: 8px solid #2c3e50;
+  border-left: 8px solid #4e502c;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 6px;
@@ -80,7 +80,7 @@ section {
 
 section h2 {
   color: #2c3e50;
-  border-bottom: 3px solid #4ca1af;
+  border-bottom: 3px solid #4ca0af;
   padding-bottom: 6px;
   margin-bottom: 12px;
 }
