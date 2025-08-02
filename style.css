@@ -8,8 +8,8 @@
 /* Body and font */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: black;
-  color: blueviolet; /* Dark Grey for text */
+  background-color: #0b0f3b; /* Dark navy, softer than black */
+  color: #eec9ff;            /* Light lavender text */
   line-height: 1.6;
   padding: 20px;
   min-height: 100vh;
@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(90deg, #4dff65 80%, #F0F8FF 100%);
+  background: linear-gradient(90deg, #FFD700 60%, #4b0082 100%); /* Gold to Indigo */
   color: white;
   padding: 25px 15px 20px 15px;
   border-radius: 12px;
@@ -30,18 +30,19 @@ header {
 header h1 {
   font-size: 2.5rem;
   margin-bottom: 5px;
-  color: #FFD700;   /* Gold accent for prominence */
+  color: #FFD700;   /* Gold accent */
   letter-spacing: 2px;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  text-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
 .emoji {
   font-size: 1.45rem;
 }
+
 .subtitle {
   font-size: 1.15rem;
   opacity: 0.93;
-  color: #F0F8FF;
+  color: #f0e6ff; /* Very pale lavender */
   letter-spacing: 1px;
 }
 
@@ -56,17 +57,17 @@ nav ul {
 }
 
 nav a {
-  color: #FFD700;           /* Gold for nav links */
+  color: #FFD700;      /* Gold links */
   text-decoration: none;
   font-weight: bold;
   font-size: 1.08rem;
-  transition: color 0.3s ease;
-  padding: 3px 8px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  padding: 3px 10px;
   border-radius: 4px;
 }
 nav a:hover {
-  color: #003366;
-  background-color: #FFD700;
+  color: white;
+  background-color: #003366; /* Navy background on hover */
 }
 
 /* Main container grows to fill */
@@ -78,17 +79,18 @@ main {
 
 /* Section styles */
 section {
-  background: #fff; /* Clean white for readability */
-  border-left: 8px solid #003366; /* Navy accent border */
+  background: #fff;                   /* White sections for clarity */
+  border-left: 8px solid #003366;    /* Navy accent border */
   padding: 21px 25px 19px 25px;
   margin-bottom: 24px;
   border-radius: 8px;
-  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.06);
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.07);
+  color: #333;  /* dark text inside sections for readability */
 }
 
 section h2 {
-  color: #003366;
-  border-bottom: 3px solid #FFD700;
+  color: #003366;              /* Navy headings */
+  border-bottom: 3px solid #FFD700; /* Gold underline */
   padding-bottom: 6px;
   margin-bottom: 16px;
   font-size: 1.3rem;
@@ -98,26 +100,28 @@ section h2 {
 /* Lists */
 ul {
   margin-left: 26px;
+  color: #222;  /* slightly darker for lists */
 }
 
 /* Paragraphs inside projects */
 section#projects p {
   margin-top: 6px;
+  color: #222;
 }
 
 /* Links in sections */
 a {
-  color: #003366;
+  color: #003366;  /* Navy links */
   font-weight: 600;
   text-decoration: none;
   transition: color 0.2s;
 }
 a:hover, .cv-link:hover {
-  color: #FFD700;
+  color: #FFD700;   /* Gold on hover */
   text-decoration: underline;
 }
 
-/* Download CV link - special style */
+/* Download CV link - special styled button */
 .cv-link {
   display: inline-block;
   margin-top: 8px;
@@ -140,16 +144,17 @@ a:hover, .cv-link:hover {
   width: 100%;
   max-width: 600px;
   border-collapse: collapse;
-  background: #F0F8FF;
+  background: #F0F8FF; /* Alice blue */
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  color: #003366;
 }
 
 #contacts td {
   padding: 10px 8px;
   vertical-align: middle;
   font-size: 1rem;
-  border-bottom: 1px solid #e2e6ea;
+  border-bottom: 1px solid #d0d7df;
 }
 
 #contacts td img {
@@ -160,13 +165,13 @@ a:hover, .cv-link:hover {
 footer#copyright {
   width: 100%;
   text-align: center;
-  background: #003366;
-  color: #F0F8FF;
+  background: #003366; /* Navy */
+  color: #F0F8FF;      /* Alice blue */
   padding: 12px 0 8px 0;
   font-size: 1.03rem;
   letter-spacing: 0.7px;
   margin-top: 20px;
-  border-top: 2px solid #FFD700;
+  border-top: 2px solid #FFD700; /* Gold border */
   border-radius: 0 0 10px 10px;
   display: flex;
   justify-content: center;
