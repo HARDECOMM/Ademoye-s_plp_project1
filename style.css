@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(90deg, #0a2006 10%, #3A1C71 100%); /* dark greenish to indigo */
+  background: linear-gradient(90deg, #0a2006 10%, #3A1C71 100%);
   color: #F5F7FA;
   padding: 28px 18px 24px 18px;
   border-radius: 14px;
@@ -31,7 +31,7 @@ header {
 header h1 {
   font-size: 2.7rem;
   margin-bottom: 6px;
-  color: #cc00ff; /* Gold accent */
+  color: #cc00ff; /* Purple accent per your last version */
   letter-spacing: 2.5px;
   text-shadow: 0 2px 8px rgba(122,48,224,0.13), 0 1px 0 #000;
 }
@@ -68,7 +68,7 @@ nav a {
   border-radius: 5px;
 }
 nav a:hover {
-  background: #d400ff; /* Gold hover bg */
+  background: #d400ff; /* Bright magenta hover */
   color: #3A1C71;      /* Indigo hover text */
 }
 
@@ -79,7 +79,7 @@ main {
   margin: 0 auto 40px auto;
 }
 
-/* Sections styling */
+/* General sections */
 section {
   background: #FFFFFF; /* White for clarity */
   border-left: 8px solid #20E3B2; /* Teal border */
@@ -90,6 +90,21 @@ section {
   color: #222222; /* dark text */
 }
 
+/* Special background for Programming Languages (darker ash) */
+#program {
+  background-color: #2F3136;  /* Charcoal Ash */
+  color: #E0E0E0;             /* Light gray text for contrast */
+  border-left: 8px solid #20E3B2; /* Teal border consistent */
+  padding: 25px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  transition: background-color 0.3s ease;
+}
+#program:hover {
+  background-color: #3B3D42;
+}
+
+/* Section headings */
 section h2 {
   color: #3A1C71; /* Deep Indigo */
   border-bottom: 3px solid #FFD700; /* Gold underline */
@@ -110,9 +125,9 @@ section#projects p {
   margin-top: 8px;
 }
 
-/* Links in sections */
+/* Links */
 a {
-  color: #000000; /* Electric purple */
+  color: #7F53AC; /* Electric purple */
   font-weight: 600;
   text-decoration: none;
   transition: color 0.2s;
@@ -123,4 +138,80 @@ a:hover,
   text-decoration: underline;
 }
 
-/* Download
+/* Download CV button */
+.cv-link {
+  display: inline-block;
+  margin-top: 10px;
+  background: linear-gradient(90deg, #7F53AC, #20E3B2);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 7px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid #20E3B2;
+  transition: background 0.2s, color 0.2s;
+}
+.cv-link:hover {
+  background: #FFD700;
+  color: #3A1C71;
+}
+
+/* Contact table */
+#contacts table {
+  width: 100%;
+  max-width: 620px;
+  border-collapse: collapse;
+  background: #F5F7FA;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(32, 227, 178, 0.05);
+  color: #232741;
+}
+
+#contacts td {
+  padding: 12px 9px;
+  vertical-align: middle;
+  font-size: 1rem;
+  border-bottom: 1px solid #e5eaf4;
+}
+
+#contacts td img {
+  vertical-align: middle;
+}
+
+/* Footer */
+footer#copyright {
+  width: 100%;
+  text-align: center;
+  background: #3A1C71;
+  color: #FFD700;
+  padding: 14px 0 9px 0;
+  font-size: 1.08rem;
+  letter-spacing: 0.71px;
+  margin-top: 22px;
+  border-top: 3px solid #20E3B2;
+  border-radius: 0 0 12px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 0;
+  }
+  section {
+    padding: 15px;
+  }
+  header h1 {
+    font-size: 1.7rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  main {
+    padding: 0 3px;
+  }
+}
