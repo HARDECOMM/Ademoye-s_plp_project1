@@ -47,7 +47,7 @@
       <li><strong>HND., Pharmaceutical Technology</strong>, Moshood Abiola Polytechnic, Ogun State, Nigeria
         <ul>
           <li>Data Analytics Essentials | Cisco Networking Academy</li>
-          <li>Google Data Analytics Professional Certificate | Umuzi</li>
+          <li>Google Data Analytics Professional Certificate | ACN(Umuzi)</li>
           <li>Data Science Certification | CareerEx Youthrive | Access Bank Nigeria</li>
           <li>Basic HTML/CSS for Beginners | kandi</li>
           <li>Soft-Skills Training | Jobberman</li>
@@ -55,12 +55,12 @@
           <li>Generative AI Mastery | HP (edX)</li>
           <li>Career Essentials in Generative AI | Microsoft, LinkedIn</li>
           <li>ML/AI | 3MTT Nigeria</li>
-      <h2>
-        <a href="https://drive.google.com/file/d/1soj87-erR5xnlWCkgZk67ogPuStPBMZO/view?usp=sharing">Download CV</a>
-      </h2>
-    </ul>
+        </ul>
       </li>
-      </ul>
+    </ul>
+    <h3>
+        <a href="https://drive.google.com/file/d/1soj87-erR5xnlWCkgZk67ogPuStPBMZO/view?usp=sharing">Download CV</a>
+    </h3>
   </section>
 
   <section id="experience">
