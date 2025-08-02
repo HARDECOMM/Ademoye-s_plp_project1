@@ -55,13 +55,12 @@
           <li>Generative AI Mastery | HP (edX)</li>
           <li>Career Essentials in Generative AI | Microsoft, LinkedIn</li>
           <li>ML/AI | 3MTT Nigeria</li>
-        </ul>
-      </li>
+      <h2>
+        <a href="https://drive.google.com/file/d/1soj87-erR5xnlWCkgZk67ogPuStPBMZO/view?usp=sharing">Download CV</a>
+      </h2>
     </ul>
-    <tr>
-      <td><a href="https://drive.google.com/file/d/1soj87-erR5xnlWCkgZk67ogPuStPBMZO/view?usp=sharing">Download CV</a>
-      </td>
-    </tr>
+      </li>
+      </ul>
   </section>
 
   <section id="experience">
