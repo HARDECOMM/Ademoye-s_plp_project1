@@ -8,7 +8,7 @@
 /* Body and font */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: bisque;
+  background-color: #003366;
   color: #fff3f3;
   line-height: 1.6;
   padding: 20px;
@@ -19,7 +19,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(90deg, #2c3f50, #b46dc2);
+  background: linear-gradient(90deg, #F0F8FF, #b46dc2);
   color: white;
   padding: 20px 15px;
   border-radius: 10px;
@@ -79,8 +79,8 @@ section {
 }
 
 section h2 {
-  color: #e2a157;
-  border-bottom: 3px solid #4ca0af;
+  color: #FFD700;
+  border-bottom: 3px solid #333333;
   padding-bottom: 6px;
   margin-bottom: 12px;
 }
@@ -97,21 +97,21 @@ section#projects p {
 
 /* Links in sections */
 a {
-  color: #2c3e50;
+  color: #FF6347;
   font-weight: 600;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
-  color: #4ca1af;
+  color: #ADD8E6;
 }
 
 /* Download CV link special style */
 .cv-link {
   display: inline-block;
   margin-top: 8px;
-  background-color: #4ca1af;
+  background-color: #32CD32;
   color: white;
   padding: 7px 15px;
   border-radius: 5px;
@@ -120,7 +120,7 @@ a:hover {
 }
 
 .cv-link:hover {
-  background-color: #3b8b99;
+  background-color: #FFFFFF;
 }
 
 /* Contact table */
