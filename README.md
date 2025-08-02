@@ -59,7 +59,7 @@
       </li>
     </ul>
     <tr>
-      <td><a href="https://www.dropbox.com/scl/fi/9vc68grinje7m6e271lam/Haruna_Ademoye_CV.pdf?rlkey=07la5ioc2183tzcmfds2fd7j1&st=cx4rpjoh&dl=0">Download CV</a>
+      <td><a href="https://drive.google.com/file/d/1soj87-erR5xnlWCkgZk67ogPuStPBMZO/view?usp=sharing">Download CV</a>
       </td>
     </tr>
   </section>
