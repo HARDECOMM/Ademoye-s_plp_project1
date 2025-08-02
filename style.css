@@ -8,8 +8,8 @@
 /* Body and font */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8faf9;
-  color: #222222;
+  background-color: #83ffee;
+  color: #fff3f3;
   line-height: 1.6;
   padding: 20px;
   min-height: 100vh;
@@ -71,7 +71,7 @@ main {
 
 /* Section styles */
 section {
-  background: rgba(76, 161, 175, 0.1); /* light turquoise tint */
+  background: rgba(44, 0, 26, 0.1); /* light turquoise tint */
   border-left: 8px solid #4e502c;
   padding: 20px;
   margin-bottom: 20px;
@@ -79,7 +79,7 @@ section {
 }
 
 section h2 {
-  color: #2c3e50;
+  color: #e2a157;
   border-bottom: 3px solid #4ca0af;
   padding-bottom: 6px;
   margin-bottom: 12px;
