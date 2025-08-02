@@ -5,11 +5,25 @@
   padding: 0;
 }
 
-/* Body and font */
+/* Animated body background */
+@keyframes bodyGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: blueviolet; /* Deep navy */
-  color: #F5F7FA;      /* Soft off-white for readability */
+  background: linear-gradient(-45deg, #2D265F, #3A1C71, #20E3B2, #2D265F);
+  background-size: 400% 400%;
+  animation: bodyGradient 20s ease infinite;
+  color: #F5F7FA; /* Soft off-white */
   line-height: 1.6;
   padding: 20px;
   min-height: 100vh;
@@ -19,7 +33,7 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(90deg, #0a2006 10%, #3A1C71 100%);
+  background: linear-gradient(90deg, #3A1C71 20%, #20E3B2 100%);
   color: #F5F7FA;
   padding: 28px 18px 24px 18px;
   border-radius: 14px;
@@ -31,9 +45,9 @@ header {
 header h1 {
   font-size: 2.7rem;
   margin-bottom: 6px;
-  color: #cc00ff; /* Purple accent per your last version */
+  color: #cc00ff; /* Bright purple accent */
   letter-spacing: 2.5px;
-  text-shadow: 0 2px 8px rgba(122,48,224,0.13), 0 1px 0 #000;
+  text-shadow: 0 2px 8px rgba(122, 48, 224, 0.13), 0 1px 0 #000;
 }
 
 .subtitle {
@@ -67,8 +81,9 @@ nav a {
   padding: 5px 11px;
   border-radius: 5px;
 }
+
 nav a:hover {
-  background: #d400ff; /* Bright magenta hover */
+  background: #d400ff; /* Magenta hover */
   color: #3A1C71;      /* Indigo hover text */
 }
 
@@ -81,32 +96,33 @@ main {
 
 /* General sections */
 section {
-  background: #FFFFFF; /* White for clarity */
-  border-left: 8px solid #20E3B2; /* Teal border */
+  background: #FFFFFF; /* Crisp white */
+  border-left: 8px solid #20E3B2; /* Teal accent border */
   padding: 22px 27px 18px 29px;
   margin-bottom: 28px;
   border-radius: 10px;
-  box-shadow: 0 2px 22px rgba(32, 227, 178, 0.07), 0 0.5px 0.5px rgba(0, 0, 0, 0.04);
-  color: #4CAF50; /* green */
+  box-shadow: 0 2px 22px rgba(32, 227, 178, 0.07), 0 0.5px 0.5px rgba(0,0,0,0.04);
+  color: #4CAF50; /* Green text as requested, can be adjusted */
 }
 
-/* Special background for Programming Languages (darker ash) */
+/* Programming Languages section - dark ash background */
 #program {
-  background-color: #2F3136;  /* Charcoal Ash */
-  color: #E0E0E0;             /* Light gray text for contrast */
-  border-left: 8px solid #20E3B2; /* Teal border consistent */
+  background-color: #2F3136;  /* Charcoal ash */
+  color: #E0E0E0;             /* Light gray text */
+  border-left: 8px solid #20E3B2; /* Teal border */
   padding: 25px 30px;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.35);
   transition: background-color 0.3s ease;
 }
+
 #program:hover {
   background-color: #3B3D42;
 }
 
-/* Section headings */
+/* Headings */
 section h2 {
-  color: #1c5671; /* Deep Indigo */
+  color: #1c5671; /* Deep indigo */
   border-bottom: 3px solid #FFD700; /* Gold underline */
   padding-bottom: 7px;
   margin-bottom: 18px;
@@ -120,6 +136,7 @@ ul {
   color: #261a25;
 }
 
+/* Paragraphs inside projects */
 section#projects p {
   color: #413c23;
   margin-top: 8px;
@@ -132,6 +149,7 @@ a {
   text-decoration: none;
   transition: color 0.2s;
 }
+
 a:hover,
 .cv-link:hover {
   color: #FFD700; /* Gold on hover */
@@ -195,7 +213,7 @@ footer#copyright {
   align-items: center;
 }
 
-/* Responsive adjustments */
+/* Responsive */
 @media (max-width: 600px) {
   nav ul {
     flex-direction: column;
