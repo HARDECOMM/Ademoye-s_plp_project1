@@ -1,109 +1,147 @@
-# Haruna Ademoye 👨‍✈️👮‍♂️👩‍🎓
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Haruna Ademoye | Software Engineer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header> 
+    <h1>Haruna Ademoye <span class="emoji">👨‍✈️👮‍♂️👩‍🎓</span></h1>
+    <p class="subtitle">Data Scientist | Machine/AI | Software Engineer</p>
+    <nav>
+      <ul>
+        <li><a href="#program">Programming Languages</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#interests">Interests</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Reach Out</a></li>
+      </ul>
+    </nav>
+  </header>
 
-*Data Scientist | Machine/AI | Software Engineer*
+  <section id="program">
+    <h2>Programming Languages🛒🎢🍽</h2>
+    <ul>
+      <li><strong>Languages:</strong> Python (NumPy, Pandas, Matplotlib, Scikit-Learn, PySpark)</li>
+      <li><strong>Others:</strong> HTML/CSS (Basics)</li>
+    </ul>
+  </section>
 
-## Skills & Technologies🛒🎢🥨🍽🍴🛴💨
+  <section id="about">
+    <h2>About Me 💫💢💤</h2>
+    <p>Hello, I’m Haruna Ademoye 😊, an anticipated  Software Engineer, proficient in data analysis, Machine Learning, Artificial Intelligent, and basic model deployment workflows. As a newly onboarded software engineer with PLP, I am eager to leverage my knowledge with software development achitecture to bring my products into real-world. With experience across healthcare, finance, sales, operations, and customer service, I am dedicated to supporting businesses in overcoming challenges and driving growth.</p>
+      <tr>
+        <td><a href="https://www.dropbox.com/scl/fi/9vc68grinje7m6e271lam/Haruna_Ademoye_CV.pdf?rlkey=07la5ioc2183tzcmfds2fd7j1&st=cx4rpjoh&dl=0">Download CV</a></td>
+      </tr>
+  </section>
 
-- Programming Languages: Python (NumPy, Pandas, Matplotlib, Scikit-Learn, PySpark)
+  <section id="interests">
+    <h2>Interests 🌋👨‍🏫👨‍🍳</h2>
+    <p>I am passionate about leveraging ML/AI to drive innovation. My experience spans healthcare, finance, and operations, transforming data into actionable insights. I’m excited to tackle real-world challenges and contribute to impactful projects.</p>
+  </section>
 
-- Machine Learning & AI: Predictive Modeling, Data Preprocessing, Model Training
+  <section id="education">
+    <h2>Education ✅✍📐📏</h2>
+    <ul>
+      <li><strong>HND., Pharmaceutical Technology</strong>, Moshood Abiola Polytechnic, Ogun State, Nigeria
+        <ul>
+          <li>Data Analytics Essentials | Cisco Networking Academy</li>
+          <li>Google Data Analytics Professional Certificate | Umuzi</li>
+          <li>Data Science Certification | CareerEx Youthrive | Access Bank Nigeria</li>
+          <li>Basic HTML/CSS for Beginners | kandi</li>
+          <li>Soft-Skills Training | Jobberman</li>
+          <li>Design Thinking | Unilever Level-Up</li>
+          <li>Generative AI Mastery | HP (edX)</li>
+          <li>Career Essentials in Generative AI | Microsoft, LinkedIn</li>
+          <li>ML/AI | 3MTT Nigeria</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
 
-- Data Analytics: Data Cleaning, Visualization, Statistical Analysis
+  <section id="experience">
+    <h2>Work Experience 🦛🦄</h2>
+    <div class="job">
+      <strong>Data Analytics</strong> at Financial Services Olalekan Ademoye & Co. (Apr 2023 - Present)
+      <ul>
+        <li>Automated data input for audit reports, reducing workload by 70% 🌟</li>
+        <li>Sourced company info online with 80% accuracy for stakeholders 🌟</li>
+        <li>Tax Filing via TaxPro Max with 95% accuracy 🌟</li>
+        <li>Managed local storage data with 99% integrity 🌟</li>
+      </ul>
+    </div>
+    <div class="job">
+      <strong>Data Analytics</strong> at Clinical Pharmacy Delta State Ministry of Health (Mar 2022 - Apr 2023)
+      <ul>
+        <li>Malaria Data Entry with 70% accuracy 🌟</li>
+        <li>Stock Keeping and Analysis at 95% Quantification Accuracy 🌟</li>
+        <li>Medication Dispensing with 98% Quantification Accuracy 🌟</li>
+        <li>Pharmacy Management with 90% Quantification Accuracy 🌟</li>
+      </ul>
+    </div>
+  </section>
 
-- Other Technologies: Basic HTML/CSS (Basics)
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <strong>Vehicle Traffic Analysis Dashboard App</strong> <br>
+        <a href="https://github.com/HARDECOMM/vehicle_traffic_analysis.git">GitHub Link</a>
+        <p>Video analytics dashboard for traffic flow insights using computer vision.</p>
+        <a href="https://lnkd.in/dZuEQtkF">app_demo Link</a>
+      </li>
+      <li>
+        <strong>EbolaVirusBot App</strong> <br>
+        <a href="https://github.com/HARDECOMM/EbolaVirusBot.git">GitHub Link</a>
+        <p>A bot providing real-time Ebola virus updates and prevention guidance.</p>
+        <a href="https://lnkd.in/gPN4HYGX">app_demo_</a>
+      </li>
+      <li>
+        <strong>Malaria Prediction App</strong> <br>
+        <a href="https://github.com/HARDECOMM/Malaria-Prediction.git">GitHub Link</a>
+        <p>Predicting malaria cases using ML from patient symptoms and other data.</p>
+        <a href="https://lnkd.in/dwSvAUBQ">app_demo_</a>
+      </li>
+      <li>
+        <strong>Data-Analysis Projects</strong> <br>
+        <a href="https://hardecomm.github.io/Ademoye-s_Portfolio/">Portfolio Website</a>
+        <p>Data analytics/visualization: dashboards, ML, PowerBI, Tableau.</p>
+      </li>
+    </ul>
+  </section>
 
-## Abount Me 💫💢💤
-Hello, I’m Haruna Ademoye 😊, a Software Engineer specializing in Machine Learning and Artificial Intelligence for predictive modeling and model development. As a newly onboarded software engineer with PLP, I am eager to apply my knowledge to real-world project development. I have a strong passion for learning and transforming data into actionable insights. With experience across healthcare, finance, sales, operations, and customer service, I am dedicated to supporting businesses in overcoming challenges and driving growth.
-
-
-## Interest🌋👨‍🏫👨‍🍳
-Hello, I’m Haruna Ademoye, a Software Engineer specializing in Machine Learning and Artificial Intelligence for predictive modeling and model development. As a newly onboarded software engineer with PLP, I am eager to apply my knowledge to real-world project development. I have a strong passion for learning and transforming data into actionable insights. With experience across healthcare, finance, sales, operations, and customer service, I am dedicated to supporting businesses in overcoming challenges and driving growth.
-
-## Education ✅✍✍📐📏
- - HND., Pharmaceutical Technology | Moshood Abiola Polytechnic, Abeokuta Ogun State, Nigeria
-    ### Extracurricular Certification
-      - Data Analytics Essentials | Cisco Networking Academy 
-      - Google Data Analytics Professional Certificate | African coding Network(Umuzi)
-      - Data Science Certification | CareerEx Youthrive | Access Bank Nigeria
-      - Basic of HTML/CSS for Beginners | kandi
-      - Jobberman Soft-Skills Training | Young Africa Works Jobberman
-      - Design Thinking from a business perspective | Unilever Level-Up
-      - Generative AI Mastery: Revolutionizing Game Development | HP (edX)
-      - Career Essentials in Generative AI | By Microsoft and Linkedln
-      - ML/AI | 3MTT Nigeria | Federal Government of Nigeria
-
-## Work Experience🦛🦛🦛🦌🦄
-**Data Analytics at Financial Services Olalekan Ademoye & Co. (April 2023 - Present)**
- - Automated data input for audit reports cuts workload by 70% 🌟
- - Sourced company info online with 80% accuracy for stakeholders 🌟 
- - Tax Filing via TaxPro Max with 95% accuracy and high attention to details 🌟
- - Managed local storage data with 99% integrity 🌟  
-
- **Data Analytics at Clinical Pharmacy Delta State Ministry of Health(NYSC), Asaba (March 2022 - April 2023**)🤐🙄🚈🚄
- - Malaria Data Entry with 70% accuracy 🌟
- - Stock Keeping and Analysis for Stakeholders with 95% Quantification Accuracy 🌟 
- - Medication Dispensing with 98% Quantification Accuracy 🌟
- - Pharmacy Management with 90% Quantification Accuracy  🌟 
-
-## Projects
-
-### Vehicle Traffic Analysis Dashboard App
-[Publication]([https://github.com/HARDECOMM/vehicle_traffic_analysis.git](https://lnkd.in/dZuEQtkF))
-This project involves the development of a dashboard that analyzes video footage to provide insights into vehicle traffic patterns. The application utilizes computer vision techniques to detect and track vehicles, offering real-time analytics on traffic flow, congestion, and other key metrics. This dashboard aims to enhance traffic management and inform urban planning decisions.
-
-### EbolaVirusBot App
-[Publication]([https://github.com/HARDECOMM/EbolaVirusBot.git](https://lnkd.in/gkchy3Br))
-EbolaVirusBot: A project focused on developing a bot to provide real-time updates and information related to the Ebola virus. This includes data on outbreaks, symptoms, prevention measures, and treatment options. The bot aims to disseminate accurate and timely information to help raise awareness and support public health efforts.
-
-### Malaria Prediction App
-[Publication]([https://github.com/HARDECOMM/Malaria-Prediction.git](https://lnkd.in/dwSvAUBQ))
-Malaria Prediction Project: This project aims to predict malaria cases based on symptoms and risk factors using machine learning techniques. It analyzes patient data, including symptoms like fever and chills, along with demographic and environmental factors, to improve early diagnosis and treatment.
-
-### Data-Analysis Projects
-[Publication](https://hardecomm.github.io/Ademoye-s_Portfolio/)
-This portfolio features a data-driven strategy using Python for analyzing various datasets, alongside projects including a Power BI dashboard for visualization, Machine Learning implementations in Jupyter Notebook, and a Tableau project for presenting insights.
-
-# REACH OUT TO ME
- 
-*Let’s connect and see how we can make a difference!* 
-
-<table>
-  <tbody>
-    <tr><td><img src="gmail.png" width="20" height="16">
-      </td><td>
- <a href="ademoyeharuna@gmail.com"> Ademoyeharuna@gmail.com</a>
-      </td></tr>
-   
- <tr><td>
- <img src="phone-call.png" width="20" height="16">
- </td><td>
-  <a href="tel:+2348074904427"> +234 8074 904 427</a>
-      </td> </tr>
-      
-<tr> <td> <img src="github.png" width="20" height="16"> </td>
-      <td> <a href="https://github.com/HARDECOMM"> Github</a>
-      </td></tr>
-      
- <tr><td>
-   <img src="medium.png" width="20" height="16"> </td><td> <a href="https://medium.com/@ademoyeharuna">Medium</a>
-      </td></tr>
-      
-<tr> <td>
- <img src="placeholder.png" width="20" height="16"></td>
-      <td>
-<a href="https://maps.app.goo.gl/FwoJcSH7JaN1LW4Q8"> Lagos, Nigeria</a>
-      </td> </tr> 
-
-<tr> <td>
- <img src="down-chevron.png" width="20" height="16"></td>
-      <td>
-<a href="https://www.dropbox.com/scl/fi/9vc68grinje7m6e271lam/Haruna_Ademoye_CV.pdf?rlkey=07la5ioc2183tzcmfds2fd7j1&st=cx4rpjoh&dl=0">Download My CV</a>
-      </td> </tr> 
-  
-  <tr> <td>
- <img src="linkedin.png" width="20" height="16"></td>
-      <td><a href="https://www.linkedin.com/in/haruna-ademoye-859486110">LinkedIn</a>
-      </td> </tr> 
-  
-  </tbody>
-</table>
+  <section id="contact">
+    <h2>Reach Out</h2>
+    <table>
+      <tr>
+        <td><img src="images_/gmail.png" alt="Email" width="20"></td>
+        <td><a href="mailto:ademoyeharuna@gmail.com">ademoyeharuna@gmail.com</a></td>
+      </tr>
+      <tr>
+        <td><img src="images_/phone-call.png" alt="Phone" width="20"></td>
+        <td><a href="tel:+2348074904427">+234 8074 904 427</a></td>
+      </tr>
+      <tr>
+        <td><img src="images_/github.png" alt="GitHub" width="20"></td>
+        <td><a href="https://github.com/HARDECOMM">Github</a></td>
+      </tr>
+      <tr>
+        <td><img src="images_/medium.png" alt="Medium" width="20"></td>
+        <td><a href="https://medium.com/@ademoyeharuna">Medium</a></td>
+      </tr>
+      <tr>
+        <td><img src="images_/placeholder.png" alt="Location" width="20"></td>
+        <td><a href="https://maps.app.goo.gl/FwoJcSH7JaN1LW4Q8">Lagos, Nigeria</a></td>
+      </tr>
+      <tr>
+        <td><img src="images_/linkedin.png" alt="LinkedIn" width="20"></td>
+        <td><a href="https://www.linkedin.com/in/haruna-ademoye-859486110">LinkedIn</a></td>
+      </tr>
+    </table>
+  </section>
+</body>
+</html>
