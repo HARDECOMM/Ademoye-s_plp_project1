@@ -8,7 +8,7 @@
 /* Body and font */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: white(248, 255, 240, 0.226);  /* Alice Blue for soft, clean look */
+  background-color: black(248, 255, 240, 0.226);  /* Alice Blue for soft, clean look */
   color: #333333;             /* Dark Grey for text */
   line-height: 1.6;
   padding: 20px;
