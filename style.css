@@ -8,8 +8,8 @@
 /* Body and font */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #003366;
-  color: #fff3f3;
+  background-color: #F0F8FF;  /* Alice Blue for soft, clean look */
+  color: #333333;             /* Dark Grey for text */
   line-height: 1.6;
   padding: 20px;
   min-height: 100vh;
@@ -19,47 +19,54 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(90deg, #F0F8FF, #b46dc2);
+  background: linear-gradient(90deg, #003366 80%, #F0F8FF 100%);
   color: white;
-  padding: 20px 15px;
-  border-radius: 10px;
-  margin-bottom: 25px;
+  padding: 25px 15px 20px 15px;
+  border-radius: 12px;
+  margin-bottom: 28px;
   text-align: center;
 }
 
 header h1 {
   font-size: 2.5rem;
   margin-bottom: 5px;
+  color: #FFD700;   /* Gold accent for prominence */
+  letter-spacing: 2px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.10);
 }
 
 .emoji {
-  font-size: 1.5rem;
+  font-size: 1.45rem;
 }
-
 .subtitle {
-  font-size: 1.2rem;
-  opacity: 0.85;
+  font-size: 1.15rem;
+  opacity: 0.93;
+  color: #F0F8FF;
+  letter-spacing: 1px;
 }
 
 /* Nav styles */
 nav ul {
-  margin-top: 15px;
+  margin-top: 18px;
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 28px;
   flex-wrap: wrap;
   list-style: none;
 }
 
 nav a {
-  color: white;
+  color: #FFD700;           /* Gold for nav links */
   text-decoration: none;
   font-weight: bold;
+  font-size: 1.08rem;
   transition: color 0.3s ease;
+  padding: 3px 8px;
+  border-radius: 4px;
 }
-
 nav a:hover {
-  color: #f39c12;
+  color: #003366;
+  background-color: #FFD700;
 }
 
 /* Main container grows to fill */
@@ -71,23 +78,26 @@ main {
 
 /* Section styles */
 section {
-  background: rgba(44, 0, 26, 0.1); /* light turquoise tint */
-  border-left: 8px solid #4e502c;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 6px;
+  background: #fff; /* Clean white for readability */
+  border-left: 8px solid #003366; /* Navy accent border */
+  padding: 21px 25px 19px 25px;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,0.06);
 }
 
 section h2 {
-  color: #FFD700;
-  border-bottom: 3px solid #333333;
+  color: #003366;
+  border-bottom: 3px solid #FFD700;
   padding-bottom: 6px;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
 }
 
 /* Lists */
 ul {
-  margin-left: 20px;
+  margin-left: 26px;
 }
 
 /* Paragraphs inside projects */
@@ -97,30 +107,32 @@ section#projects p {
 
 /* Links in sections */
 a {
-  color: #FF6347;
+  color: #003366;
   font-weight: 600;
   text-decoration: none;
+  transition: color 0.2s;
 }
-
-a:hover {
+a:hover, .cv-link:hover {
+  color: #FFD700;
   text-decoration: underline;
-  color: #ADD8E6;
 }
 
-/* Download CV link special style */
+/* Download CV link - special style */
 .cv-link {
   display: inline-block;
   margin-top: 8px;
-  background-color: #32CD32;
-  color: white;
+  background-color: #FFD700;
+  color: #003366;
   padding: 7px 15px;
-  border-radius: 5px;
+  border-radius: 6px;
   font-weight: 600;
   text-decoration: none;
+  border: 2px solid #003366;
+  transition: background 0.2s, color 0.2s;
 }
-
 .cv-link:hover {
-  background-color: #FFFFFF;
+  background-color: #003366;
+  color: #FFD700;
 }
 
 /* Contact table */
@@ -128,13 +140,16 @@ a:hover {
   width: 100%;
   max-width: 600px;
   border-collapse: collapse;
+  background: #F0F8FF;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
 }
 
 #contacts td {
-  padding: 10px;
+  padding: 10px 8px;
   vertical-align: middle;
   font-size: 1rem;
-  border-bottom: 1px solid rgba(44, 62, 80, 0.15);
+  border-bottom: 1px solid #e2e6ea;
 }
 
 #contacts td img {
@@ -145,14 +160,17 @@ a:hover {
 footer#copyright {
   width: 100%;
   text-align: center;
-  background: black;
-  color: #f3f3f3;
+  background: #003366;
+  color: #F0F8FF;
   padding: 12px 0 8px 0;
-  font-size: 1rem;
-  letter-spacing: 0.5px;
+  font-size: 1.03rem;
+  letter-spacing: 0.7px;
   margin-top: 20px;
-  border-top: 2px solid #4ca1af;
+  border-top: 2px solid #FFD700;
   border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Responsive */
@@ -160,17 +178,18 @@ footer#copyright {
   nav ul {
     flex-direction: column;
     gap: 15px;
+    padding-left: 0;
   }
-
   section {
     padding: 15px;
   }
-
   header h1 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
   }
-
   .subtitle {
     font-size: 1rem;
+  }
+  main {
+    padding: 0 3px;
   }
 }
