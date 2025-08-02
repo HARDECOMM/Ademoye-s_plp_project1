@@ -9,7 +9,7 @@
 <body>
   <header> 
     <h1>Haruna Ademoye <span class="emoji">👨‍✈️👮‍♂️👩‍🎓</span></h1>
-    <p class="subtitle">Data Scientist | Machine/AI | Software Engineer</p>
+    <p class="subtitle">Data Scientist | Machine/AI | Machine Learning</p>
     <nav>
       <ul>
         <li><a href="#program">Programming Languages</a></li>
@@ -55,12 +55,11 @@
           <li>Generative AI Mastery | HP (edX)</li>
           <li>Career Essentials in Generative AI | Microsoft, LinkedIn</li>
           <li>ML/AI | 3MTT Nigeria</li>
+            <a href="https://drive.google.com/file/d/1soj87-erR5xnlWCkgZk67ogPuStPBMZO/view?usp=sharing">Download CV</a>
         </ul>
       </li>
     </ul>
-    <h3>
-        <a href="https://drive.google.com/file/d/1soj87-erR5xnlWCkgZk67ogPuStPBMZO/view?usp=sharing">Download CV</a>
-    </h3>
+  
   </section>
 
   <section id="experience">
