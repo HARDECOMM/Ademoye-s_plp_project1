@@ -8,7 +8,7 @@
 /* Body and font */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #181F3A; /* Deep navy */
+  background: blueviolet; /* Deep navy */
   color: #F5F7FA;      /* Soft off-white for readability */
   line-height: 1.6;
   padding: 20px;
