@@ -68,7 +68,7 @@
         <strong>Vehicle Traffic Analysis Dashboard App</strong> <br>
         <a href="https://github.com/HARDECOMM/vehicle_traffic_analysis.git">GitHub Link</a>
         <p>Video analytics dashboard for traffic flow insights using computer vision.</p>
-        <a href="https://lnkd.in/dZuEQtkF">app_demo Link</a>
+        <a href="https://lnkd.in/dZuEQtkF">app_demo</a>
       </li>
       <li>
         <strong>EbolaVirusBot App</strong> <br>
