@@ -34,9 +34,6 @@
   <section id="about">
     <h2>About Me 💫💢💤</h2>
     <p>Hello, I’m Haruna Ademoye 😊, an anticipated  Software Engineer, proficient in data analysis, Machine Learning, Artificial Intelligent, and basic model deployment workflows. As a newly onboarded software engineer with PLP, I am eager to leverage my knowledge with software development achitecture to bring my products into real-world. With experience across healthcare, finance, sales, operations, and customer service, I am dedicated to supporting businesses in overcoming challenges and driving growth.</p>
-      <tr>
-        <td><a href="https://www.dropbox.com/scl/fi/9vc68grinje7m6e271lam/Haruna_Ademoye_CV.pdf?rlkey=07la5ioc2183tzcmfds2fd7j1&st=cx4rpjoh&dl=0">Download CV</a></td>
-      </tr>
   </section>
 
   <section id="interests">
@@ -61,6 +58,10 @@
         </ul>
       </li>
     </ul>
+    <tr>
+      <td><a href="https://www.dropbox.com/scl/fi/9vc68grinje7m6e271lam/Haruna_Ademoye_CV.pdf?rlkey=07la5ioc2183tzcmfds2fd7j1&st=cx4rpjoh&dl=0">Download CV</a>
+      </td>
+    </tr>
   </section>
 
   <section id="experience">
