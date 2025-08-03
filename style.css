@@ -5,25 +5,16 @@
   padding: 0;
 }
 
-/* Animated body background */
-@keyframes bodyGradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(-45deg, #2D265F, #3A1C71, #20E3B2, #2D265F);
-  background-size: 400% 400%;
-  animation: bodyGradient 20s ease infinite;
-  color: #F5F7FA; /* Soft off-white */
+  font-family: 'Segoe UI', sans-serif;
+  background: white;
+  background-size: 400% 400%; /* (this line can be removed if unused) */
+  color: #F5F7FA;
   line-height: 1.6;
   padding: 20px;
   min-height: 100vh;
@@ -33,26 +24,34 @@ body {
 
 /* Header */
 header {
-  background: linear-gradient(90deg, #3A1C71 20%, #20E3B2 100%);
-  color: #F5F7FA;
+  background: linear-gradient(
+    90deg,
+    rgba(58, 28, 113, 0.8),
+    rgba(32, 227, 178, 0.8)
+  );
+  color: greenyellow;
   padding: 28px 18px 24px 18px;
   border-radius: 14px;
   margin-bottom: 32px;
   text-align: center;
-  box-shadow: 0 6px 20px rgba(32, 227, 178, 0.11);
+  box-shadow:
+    0 2px 12px burlywood,
+    0 1px 3px rgba(32, 227, 178, 0.15);
 }
 
 header h1 {
   font-size: 2.7rem;
   margin-bottom: 6px;
-  color: #cc00ff; /* Bright purple accent */
+  color: black;
   letter-spacing: 2.5px;
-  text-shadow: 0 2px 8px rgba(122, 48, 224, 0.13), 0 1px 0 #000;
+  text-shadow: 0 2px 8px burlywood;
 }
+
+/* Missing closing bracket for header h1 fixed here */
 
 .subtitle {
   font-size: 1.17rem;
-  color: #B3BACD;
+  color: lightgray;
   letter-spacing: 1.2px;
   opacity: 0.96;
 }
@@ -72,19 +71,19 @@ nav ul {
 }
 
 nav a {
-  color: #20E3B2; /* Teal */
+  color: skyblue;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
   background: none;
-  transition: color 0.3s, background 0.3s;
   padding: 5px 11px;
   border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav a:hover {
-  background: #d400ff; /* Magenta hover */
-  color: #3A1C71;      /* Indigo hover text */
+  background: #d400ff;
+  color: #3A1C71;
 }
 
 /* Main content */
@@ -96,23 +95,21 @@ main {
 
 /* General sections */
 section {
-  background: #FFFFFF; /* Crisp white */
-  border-left: 8px solid #20E3B2; /* Teal accent border */
+  background: #FFFFFF;
+  border-left: 8px solid black;
   padding: 22px 27px 18px 29px;
   margin-bottom: 28px;
   border-radius: 10px;
-  box-shadow: 0 2px 22px bisque, 0 0.5px 0.5px rgb(32, 227, 178), rgba(32, 227, 178, 0.15);
-  color: #4CAF50; /* Green text as requested, can be adjusted */
+  color: black; /* whitesmoke was contrasting badly on white */
 }
 
 /* Programming Languages section - dark ash background */
 #program {
-  background-color: #2F3136;  /* Charcoal ash */
-  color: #E0E0E0;             /* Light gray text */
-  border-left: 8px solid #20E3B2; /* Teal border */
+  background-color: black;
+  color: whitesmoke;
+  border-left: 8px solid #20E3B2;
   padding: 25px 30px;
   border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.35);
   transition: background-color 0.3s ease;
 }
 
@@ -122,8 +119,8 @@ section {
 
 /* Headings */
 section h2 {
-  color: #1c5671; /* Deep indigo */
-  border-bottom: 3px solid #FFD700; /* Gold underline */
+  color: black;
+  border-bottom: 3px solid gold;
   padding-bottom: 7px;
   margin-bottom: 18px;
   font-size: 1.34rem;
@@ -133,26 +130,26 @@ section h2 {
 /* Lists */
 ul {
   margin-left: 28px;
-  color: #261a25;
+  color: black;
 }
 
 /* Paragraphs inside projects */
 section#projects p {
-  color: #413c23;
+  color: black;
   margin-top: 8px;
 }
 
 /* Links */
 a {
-  color: #7F53AC; /* Electric purple */
+  color: blue;
   font-weight: 600;
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.2s ease;
 }
 
 a:hover,
 .cv-link:hover {
-  color: #FFD700; /* Gold on hover */
+  color: #FFD700;
   text-decoration: underline;
 }
 
@@ -160,76 +157,4 @@ a:hover,
 .cv-link {
   display: inline-block;
   margin-top: 10px;
-  background: linear-gradient(90deg, #7F53AC, #20E3B2);
-  color: #fff;
-  padding: 8px 16px;
-  border-radius: 7px;
-  font-weight: 600;
-  text-decoration: none;
-  border: 2px solid #20E3B2;
-  transition: background 0.2s, color 0.2s;
-}
-.cv-link:hover {
-  background: #FFD700;
-  color: #70711c;
-}
-
-/* Contact table */
-#contacts table {
-  width: 100%;
-  max-width: 620px;
-  border-collapse: collapse;
-  background: #F5F7FA;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(32, 227, 178, 0.05);
-  color: #232741;
-}
-
-#contacts td {
-  padding: 12px 9px;
-  vertical-align: middle;
-  font-size: 1rem;
-  border-bottom: 1px solid #e5eaf4;
-}
-
-#contacts td img {
-  vertical-align: middle;
-}
-
-/* Footer */
-footer#copyright {
-  width: 100%;
-  text-align: center;
-  background: #3A1C71;
-  color: #FFD700;
-  padding: 14px 0 9px 0;
-  font-size: 1.08rem;
-  letter-spacing: 0.71px;
-  margin-top: 22px;
-  border-top: 3px solid #20E3B2;
-  border-radius: 0 0 12px 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Responsive */
-@media (max-width: 600px) {
-  nav ul {
-    flex-direction: column;
-    gap: 15px;
-    padding-left: 0;
-  }
-  section {
-    padding: 15px;
-  }
-  header h1 {
-    font-size: 1.7rem;
-  }
-  .subtitle {
-    font-size: 1rem;
-  }
-  main {
-    padding: 0 3px;
-  }
-}
+  background: black
