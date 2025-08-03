@@ -101,7 +101,7 @@ section {
   padding: 22px 27px 18px 29px;
   margin-bottom: 28px;
   border-radius: 10px;
-  box-shadow: 0 2px 22px rgba(32, 227, 178, 0.07), 0 0.5px 0.5px rgba(0,0,0,0.04);
+  box-shadow: 0 2px 22px bisque, 0 0.5px 0.5px rgb(32, 227, 178), rgba(32, 227, 178, 0.15);
   color: #4CAF50; /* Green text as requested, can be adjusted */
 }
 
