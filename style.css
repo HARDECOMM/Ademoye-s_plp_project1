@@ -68,7 +68,7 @@ nav ul {
 }
 
 nav a {
-  color: skyblue;
+  color:pink;
   text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
@@ -79,8 +79,8 @@ nav a {
 }
 
 nav a:hover {
-  background: #d400ff;
-  color: #3A1C71;
+  background: whitesmoke;
+  color: black;
 }
 
 /* Main content */
@@ -97,26 +97,22 @@ section {
   padding: 22px 27px 18px 29px;
   margin-bottom: 28px;
   border-radius: 10px;
-  color: black; /* whitesmoke was contrasting badly on white */
+  color: black;
 }
 
 /* Programming Languages section - dark ash background */
 #program {
   background-color: white;
   color: black;
-  border-left: 8px solid #20E3B2;
+  border-left: 8px solid black;
   padding: 25px 30px;
   border-radius: 10px;
-}
-
-#program:hover {
-  background-color: #3B3D42;
 }
 
 /* Headings */
 section h2 {
   color: black;
-  border-bottom: 3px solid gold;
+  border-bottom: 3px solid gray;
   padding-bottom: 7px;
   margin-bottom: 18px;
   font-size: 1.34rem;
@@ -137,7 +133,7 @@ section#projects p {
 
 /* Links */
 a {
-  color: blue;
+  color: skyblue;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.2s ease;
@@ -145,7 +141,7 @@ a {
 
 a:hover,
 .cv-link:hover {
-  color: #FFD700;
+  color: red;
   text-decoration: underline;
 }
 
@@ -158,11 +154,11 @@ a:hover,
   border-radius: 7px;
   font-weight: 600;
   text-decoration: none;
-  border: 2px solid purple;
+  border: 2px solid black;
 }
 
 .cv-link:hover {
-  background-color: #FFD700;
+  background-color: red;
   color: blue;
 }
 
@@ -173,14 +169,14 @@ a:hover,
   border-collapse: collapse;
   background: #F5F7FA;
   border-radius: 8px;
-  color: black;
+  color: white;
 }
 
 #contacts td {
   padding: 12px 9px;
   vertical-align: middle;
   font-size: 1rem;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
 }
 
 #contacts td img {
@@ -220,7 +216,7 @@ footer#copyright {
   .subtitle {
     font-size: 1rem;
   }
-  main {
-    padding: 0 3px;
+    main {
+      padding: 0 3px;
+    }
   }
-}
