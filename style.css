@@ -157,4 +157,74 @@ a:hover,
 .cv-link {
   display: inline-block;
   margin-top: 10px;
-  background: black
+  color: blue;
+  padding: 8px 16px;
+  border-radius: 7px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid purple;
+}
+
+.cv-link:hover {
+  background-color: #FFD700;
+  color: blue;
+}
+
+/* Contact table */
+#contacts table {
+  width: 100%;
+  max-width: 620px;
+  border-collapse: collapse;
+  background: #F5F7FA;
+  border-radius: 8px;
+  color: black;
+}
+
+#contacts td {
+  padding: 12px 9px;
+  vertical-align: middle;
+  font-size: 1rem;
+  border-bottom: 1px solid black;
+}
+
+#contacts td img {
+  vertical-align: middle;
+}
+
+/* Footer */
+footer#copyright {
+  width: 100%;
+  text-align: center;
+  background: black;
+  color: #3B3D42;
+  padding: 14px 0 9px 0;
+  font-size: 1.08rem;
+  letter-spacing: 0.71px;
+  margin-top: 22px;
+  border-top: 3px solid #20E3B2;
+  border-radius: 0 0 12px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 0;
+  }
+  section {
+    padding: 15px;
+  }
+  header h1 {
+    font-size: 1.7rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  main {
+    padding: 0 3px;
+  }
+}
